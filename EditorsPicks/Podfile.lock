@@ -1,0 +1,21 @@
+PODS:
+  - MWFeedParser (0.0.1):
+    - MWFeedParser/Feed
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+    - MWFeedParser/NSString+XMLEntities
+  - MWFeedParser/Feed (0.0.1)
+  - MWFeedParser/NSDate+InternetDateTime (0.0.1)
+  - MWFeedParser/NSString+HTML (0.0.1)
+  - MWFeedParser/NSString+XMLEntities (0.0.1)
+  - RaptureXML (1.0.1)
+
+DEPENDENCIES:
+  - MWFeedParser
+  - RaptureXML
+
+SPEC CHECKSUMS:
+  MWFeedParser: 2ca0852fac352f8333d5f46fdd4b583b921e0c4e
+  RaptureXML: ef017fda62eb95c60300108366d1f0cd0c28cbd4
+
+COCOAPODS: 0.24.0

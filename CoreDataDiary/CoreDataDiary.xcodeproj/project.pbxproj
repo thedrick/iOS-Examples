@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251265DC180B7337004D0DFC /* CDDEntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265DB180B7337004D0DFC /* CDDEntryTableViewController.m */; };
+		251265EE180BA5DF004D0DFC /* DEComposeRuledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265E2180BA5DF004D0DFC /* DEComposeRuledView.m */; };
+		251265EF180BA5DF004D0DFC /* DEComposeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265E4180BA5DF004D0DFC /* DEComposeTextView.m */; };
+		251265F0180BA5DF004D0DFC /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265E6180BA5DF004D0DFC /* RECommonFunctions.m */; };
+		251265F1180BA5DF004D0DFC /* REComposeBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265E8180BA5DF004D0DFC /* REComposeBackgroundView.m */; };
+		251265F2180BA5DF004D0DFC /* REComposeSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265EA180BA5DF004D0DFC /* REComposeSheetView.m */; };
+		251265F3180BA5DF004D0DFC /* REComposeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 251265EB180BA5DF004D0DFC /* REComposeViewController.bundle */; };
+		251265F4180BA5DF004D0DFC /* REComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265ED180BA5DF004D0DFC /* REComposeViewController.m */; };
+		25126600180C3D79004D0DFC /* CDDDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251265FF180C3D79004D0DFC /* CDDDiaryViewController.m */; };
+		25126603180C45ED004D0DFC /* CDDCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25126602180C45ED004D0DFC /* CDDCoreDataTableViewController.m */; };
+		25126612180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25126611180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.m */; };
+		25A3D4FA180B61E900C65DEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4F9180B61E900C65DEE /* Foundation.framework */; };
+		25A3D4FC180B61E900C65DEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4FB180B61E900C65DEE /* CoreGraphics.framework */; };
+		25A3D4FE180B61E900C65DEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4FD180B61E900C65DEE /* UIKit.framework */; };
+		25A3D500180B61E900C65DEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4FF180B61E900C65DEE /* CoreData.framework */; };
+		25A3D506180B61E900C65DEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A3D504180B61E900C65DEE /* InfoPlist.strings */; };
+		25A3D508180B61E900C65DEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3D507180B61E900C65DEE /* main.m */; };
+		25A3D50C180B61E900C65DEE /* CDDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3D50B180B61E900C65DEE /* CDDAppDelegate.m */; };
+		25A3D511180B61E900C65DEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A3D510180B61E900C65DEE /* Images.xcassets */; };
+		25A3D518180B61EA00C65DEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D517180B61EA00C65DEE /* XCTest.framework */; };
+		25A3D519180B61EA00C65DEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4F9180B61E900C65DEE /* Foundation.framework */; };
+		25A3D51A180B61EA00C65DEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4FD180B61E900C65DEE /* UIKit.framework */; };
+		25A3D51B180B61EA00C65DEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A3D4FF180B61E900C65DEE /* CoreData.framework */; };
+		25A3D523180B61EA00C65DEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A3D521180B61EA00C65DEE /* InfoPlist.strings */; };
+		25A3D525180B61EA00C65DEE /* CoreDataDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3D524180B61EA00C65DEE /* CoreDataDiaryTests.m */; };
+		25A53250180CB0CD00669458 /* CoreDataDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25A5324E180CB0CD00669458 /* CoreDataDiary.xcdatamodeld */; };
+		25A53253180CB2C100669458 /* CDDDiary.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A53252180CB2C100669458 /* CDDDiary.m */; };
+		25A53256180CB2C200669458 /* CDDDiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A53255180CB2C200669458 /* CDDDiaryEntry.m */; };
+		25A5325A180CB4E300669458 /* CDDDiaryEntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A53258180CB4E300669458 /* CDDDiaryEntryDetailViewController.m */; };
+		25A5325B180CB4E300669458 /* CDDDiaryEntryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A53259180CB4E300669458 /* CDDDiaryEntryDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A3D51C180B61EA00C65DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A3D4EE180B61E900C65DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A3D4F5180B61E900C65DEE;
+			remoteInfo = CoreDataDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251265DA180B7337004D0DFC /* CDDEntryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDEntryTableViewController.h; sourceTree = "<group>"; };
+		251265DB180B7337004D0DFC /* CDDEntryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDEntryTableViewController.m; sourceTree = "<group>"; };
+		251265E1180BA5DF004D0DFC /* DEComposeRuledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEComposeRuledView.h; sourceTree = "<group>"; };
+		251265E2180BA5DF004D0DFC /* DEComposeRuledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEComposeRuledView.m; sourceTree = "<group>"; };
+		251265E3180BA5DF004D0DFC /* DEComposeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEComposeTextView.h; sourceTree = "<group>"; };
+		251265E4180BA5DF004D0DFC /* DEComposeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEComposeTextView.m; sourceTree = "<group>"; };
+		251265E5180BA5DF004D0DFC /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		251265E6180BA5DF004D0DFC /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		251265E7180BA5DF004D0DFC /* REComposeBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeBackgroundView.h; sourceTree = "<group>"; };
+		251265E8180BA5DF004D0DFC /* REComposeBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeBackgroundView.m; sourceTree = "<group>"; };
+		251265E9180BA5DF004D0DFC /* REComposeSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeSheetView.h; sourceTree = "<group>"; };
+		251265EA180BA5DF004D0DFC /* REComposeSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeSheetView.m; sourceTree = "<group>"; };
+		251265EB180BA5DF004D0DFC /* REComposeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REComposeViewController.bundle; sourceTree = "<group>"; };
+		251265EC180BA5DF004D0DFC /* REComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeViewController.h; sourceTree = "<group>"; };
+		251265ED180BA5DF004D0DFC /* REComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeViewController.m; sourceTree = "<group>"; };
+		251265FE180C3D79004D0DFC /* CDDDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDiaryViewController.h; sourceTree = "<group>"; };
+		251265FF180C3D79004D0DFC /* CDDDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDiaryViewController.m; sourceTree = "<group>"; };
+		25126601180C45ED004D0DFC /* CDDCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDCoreDataTableViewController.h; sourceTree = "<group>"; };
+		25126602180C45ED004D0DFC /* CDDCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDCoreDataTableViewController.m; sourceTree = "<group>"; };
+		25126610180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDiaryEntryTableViewCell.h; sourceTree = "<group>"; };
+		25126611180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDiaryEntryTableViewCell.m; sourceTree = "<group>"; };
+		25A3D4F6180B61E900C65DEE /* CoreDataDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A3D4F9180B61E900C65DEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25A3D4FB180B61E900C65DEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25A3D4FD180B61E900C65DEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25A3D4FF180B61E900C65DEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25A3D503180B61E900C65DEE /* CoreDataDiary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataDiary-Info.plist"; sourceTree = "<group>"; };
+		25A3D505180B61E900C65DEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A3D507180B61E900C65DEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A3D509180B61E900C65DEE /* CoreDataDiary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataDiary-Prefix.pch"; sourceTree = "<group>"; };
+		25A3D50A180B61E900C65DEE /* CDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDAppDelegate.h; sourceTree = "<group>"; };
+		25A3D50B180B61E900C65DEE /* CDDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDAppDelegate.m; sourceTree = "<group>"; };
+		25A3D510180B61E900C65DEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25A3D516180B61EA00C65DEE /* CoreDataDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A3D517180B61EA00C65DEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25A3D520180B61EA00C65DEE /* CoreDataDiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataDiaryTests-Info.plist"; sourceTree = "<group>"; };
+		25A3D522180B61EA00C65DEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A3D524180B61EA00C65DEE /* CoreDataDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDiaryTests.m; sourceTree = "<group>"; };
+		25A5324F180CB0CD00669458 /* CoreDataDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDiary.xcdatamodel; sourceTree = "<group>"; };
+		25A53251180CB2C100669458 /* CDDDiary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDiary.h; sourceTree = "<group>"; };
+		25A53252180CB2C100669458 /* CDDDiary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDiary.m; sourceTree = "<group>"; };
+		25A53254180CB2C200669458 /* CDDDiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDiaryEntry.h; sourceTree = "<group>"; };
+		25A53255180CB2C200669458 /* CDDDiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDiaryEntry.m; sourceTree = "<group>"; };
+		25A53257180CB4E300669458 /* CDDDiaryEntryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDiaryEntryDetailViewController.h; sourceTree = "<group>"; };
+		25A53258180CB4E300669458 /* CDDDiaryEntryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDiaryEntryDetailViewController.m; sourceTree = "<group>"; };
+		25A53259180CB4E300669458 /* CDDDiaryEntryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDDDiaryEntryDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A3D4F3180B61E900C65DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3D4FC180B61E900C65DEE /* CoreGraphics.framework in Frameworks */,
+				25A3D500180B61E900C65DEE /* CoreData.framework in Frameworks */,
+				25A3D4FE180B61E900C65DEE /* UIKit.framework in Frameworks */,
+				25A3D4FA180B61E900C65DEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A3D513180B61EA00C65DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3D518180B61EA00C65DEE /* XCTest.framework in Frameworks */,
+				25A3D51B180B61EA00C65DEE /* CoreData.framework in Frameworks */,
+				25A3D51A180B61EA00C65DEE /* UIKit.framework in Frameworks */,
+				25A3D519180B61EA00C65DEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251265E0180BA5DF004D0DFC /* REComposeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				251265E1180BA5DF004D0DFC /* DEComposeRuledView.h */,
+				251265E2180BA5DF004D0DFC /* DEComposeRuledView.m */,
+				251265E3180BA5DF004D0DFC /* DEComposeTextView.h */,
+				251265E4180BA5DF004D0DFC /* DEComposeTextView.m */,
+				251265E5180BA5DF004D0DFC /* RECommonFunctions.h */,
+				251265E6180BA5DF004D0DFC /* RECommonFunctions.m */,
+				251265E7180BA5DF004D0DFC /* REComposeBackgroundView.h */,
+				251265E8180BA5DF004D0DFC /* REComposeBackgroundView.m */,
+				251265E9180BA5DF004D0DFC /* REComposeSheetView.h */,
+				251265EA180BA5DF004D0DFC /* REComposeSheetView.m */,
+				251265EB180BA5DF004D0DFC /* REComposeViewController.bundle */,
+				251265EC180BA5DF004D0DFC /* REComposeViewController.h */,
+				251265ED180BA5DF004D0DFC /* REComposeViewController.m */,
+			);
+			name = REComposeViewController;
+			path = ../REComposeViewController;
+			sourceTree = "<group>";
+		};
+		25A3D4ED180B61E900C65DEE = {
+			isa = PBXGroup;
+			children = (
+				25A3D501180B61E900C65DEE /* CoreDataDiary */,
+				25A3D51E180B61EA00C65DEE /* CoreDataDiaryTests */,
+				25A3D4F8180B61E900C65DEE /* Frameworks */,
+				25A3D4F7180B61E900C65DEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A3D4F7180B61E900C65DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A3D4F6180B61E900C65DEE /* CoreDataDiary.app */,
+				25A3D516180B61EA00C65DEE /* CoreDataDiaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A3D4F8180B61E900C65DEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A3D4F9180B61E900C65DEE /* Foundation.framework */,
+				25A3D4FB180B61E900C65DEE /* CoreGraphics.framework */,
+				25A3D4FD180B61E900C65DEE /* UIKit.framework */,
+				25A3D4FF180B61E900C65DEE /* CoreData.framework */,
+				25A3D517180B61EA00C65DEE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A3D501180B61E900C65DEE /* CoreDataDiary */ = {
+			isa = PBXGroup;
+			children = (
+				251265E0180BA5DF004D0DFC /* REComposeViewController */,
+				25A3D50A180B61E900C65DEE /* CDDAppDelegate.h */,
+				25A3D50B180B61E900C65DEE /* CDDAppDelegate.m */,
+				25126601180C45ED004D0DFC /* CDDCoreDataTableViewController.h */,
+				25126602180C45ED004D0DFC /* CDDCoreDataTableViewController.m */,
+				251265FE180C3D79004D0DFC /* CDDDiaryViewController.h */,
+				251265FF180C3D79004D0DFC /* CDDDiaryViewController.m */,
+				251265DA180B7337004D0DFC /* CDDEntryTableViewController.h */,
+				251265DB180B7337004D0DFC /* CDDEntryTableViewController.m */,
+				25A53257180CB4E300669458 /* CDDDiaryEntryDetailViewController.h */,
+				25A53258180CB4E300669458 /* CDDDiaryEntryDetailViewController.m */,
+				25A53259180CB4E300669458 /* CDDDiaryEntryDetailViewController.xib */,
+				25126610180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.h */,
+				25126611180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.m */,
+				25A5324E180CB0CD00669458 /* CoreDataDiary.xcdatamodeld */,
+				25A53254180CB2C200669458 /* CDDDiaryEntry.h */,
+				25A53255180CB2C200669458 /* CDDDiaryEntry.m */,
+				25A53251180CB2C100669458 /* CDDDiary.h */,
+				25A53252180CB2C100669458 /* CDDDiary.m */,
+				25A3D510180B61E900C65DEE /* Images.xcassets */,
+				25A3D502180B61E900C65DEE /* Supporting Files */,
+			);
+			path = CoreDataDiary;
+			sourceTree = "<group>";
+		};
+		25A3D502180B61E900C65DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A3D503180B61E900C65DEE /* CoreDataDiary-Info.plist */,
+				25A3D504180B61E900C65DEE /* InfoPlist.strings */,
+				25A3D507180B61E900C65DEE /* main.m */,
+				25A3D509180B61E900C65DEE /* CoreDataDiary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25A3D51E180B61EA00C65DEE /* CoreDataDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				25A3D524180B61EA00C65DEE /* CoreDataDiaryTests.m */,
+				25A3D51F180B61EA00C65DEE /* Supporting Files */,
+			);
+			path = CoreDataDiaryTests;
+			sourceTree = "<group>";
+		};
+		25A3D51F180B61EA00C65DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A3D520180B61EA00C65DEE /* CoreDataDiaryTests-Info.plist */,
+				25A3D521180B61EA00C65DEE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A3D4F5180B61E900C65DEE /* CoreDataDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A3D528180B61EA00C65DEE /* Build configuration list for PBXNativeTarget "CoreDataDiary" */;
+			buildPhases = (
+				25A3D4F2180B61E900C65DEE /* Sources */,
+				25A3D4F3180B61E900C65DEE /* Frameworks */,
+				25A3D4F4180B61E900C65DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataDiary;
+			productName = CoreDataDiary;
+			productReference = 25A3D4F6180B61E900C65DEE /* CoreDataDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25A3D515180B61EA00C65DEE /* CoreDataDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A3D52B180B61EA00C65DEE /* Build configuration list for PBXNativeTarget "CoreDataDiaryTests" */;
+			buildPhases = (
+				25A3D512180B61EA00C65DEE /* Sources */,
+				25A3D513180B61EA00C65DEE /* Frameworks */,
+				25A3D514180B61EA00C65DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A3D51D180B61EA00C65DEE /* PBXTargetDependency */,
+			);
+			name = CoreDataDiaryTests;
+			productName = CoreDataDiaryTests;
+			productReference = 25A3D516180B61EA00C65DEE /* CoreDataDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A3D4EE180B61E900C65DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tyler Hedrick";
+				TargetAttributes = {
+					25A3D515180B61EA00C65DEE = {
+						TestTargetID = 25A3D4F5180B61E900C65DEE;
+					};
+				};
+			};
+			buildConfigurationList = 25A3D4F1180B61E900C65DEE /* Build configuration list for PBXProject "CoreDataDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25A3D4ED180B61E900C65DEE;
+			productRefGroup = 25A3D4F7180B61E900C65DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A3D4F5180B61E900C65DEE /* CoreDataDiary */,
+				25A3D515180B61EA00C65DEE /* CoreDataDiaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A3D4F4180B61E900C65DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3D506180B61E900C65DEE /* InfoPlist.strings in Resources */,
+				251265F3180BA5DF004D0DFC /* REComposeViewController.bundle in Resources */,
+				25A5325B180CB4E300669458 /* CDDDiaryEntryDetailViewController.xib in Resources */,
+				25A3D511180B61E900C65DEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A3D514180B61EA00C65DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3D523180B61EA00C65DEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A3D4F2180B61E900C65DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A53250180CB0CD00669458 /* CoreDataDiary.xcdatamodeld in Sources */,
+				251265EF180BA5DF004D0DFC /* DEComposeTextView.m in Sources */,
+				251265DC180B7337004D0DFC /* CDDEntryTableViewController.m in Sources */,
+				25126612180C6C39004D0DFC /* CDDDiaryEntryTableViewCell.m in Sources */,
+				25126603180C45ED004D0DFC /* CDDCoreDataTableViewController.m in Sources */,
+				251265EE180BA5DF004D0DFC /* DEComposeRuledView.m in Sources */,
+				25A5325A180CB4E300669458 /* CDDDiaryEntryDetailViewController.m in Sources */,
+				25126600180C3D79004D0DFC /* CDDDiaryViewController.m in Sources */,
+				25A53256180CB2C200669458 /* CDDDiaryEntry.m in Sources */,
+				25A3D50C180B61E900C65DEE /* CDDAppDelegate.m in Sources */,
+				251265F2180BA5DF004D0DFC /* REComposeSheetView.m in Sources */,
+				25A3D508180B61E900C65DEE /* main.m in Sources */,
+				251265F1180BA5DF004D0DFC /* REComposeBackgroundView.m in Sources */,
+				25A53253180CB2C100669458 /* CDDDiary.m in Sources */,
+				251265F0180BA5DF004D0DFC /* RECommonFunctions.m in Sources */,
+				251265F4180BA5DF004D0DFC /* REComposeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A3D512180B61EA00C65DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3D525180B61EA00C65DEE /* CoreDataDiaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25A3D51D180B61EA00C65DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A3D4F5180B61E900C65DEE /* CoreDataDiary */;
+			targetProxy = 25A3D51C180B61EA00C65DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25A3D504180B61E900C65DEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A3D505180B61E900C65DEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25A3D521180B61EA00C65DEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A3D522180B61EA00C65DEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A3D526180B61EA00C65DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25A3D527180B61EA00C65DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A3D529180B61EA00C65DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataDiary/CoreDataDiary-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataDiary/CoreDataDiary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25A3D52A180B61EA00C65DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataDiary/CoreDataDiary-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataDiary/CoreDataDiary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25A3D52C180B61EA00C65DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataDiary.app/CoreDataDiary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataDiary/CoreDataDiary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreDataDiaryTests/CoreDataDiaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25A3D52D180B61EA00C65DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataDiary.app/CoreDataDiary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataDiary/CoreDataDiary-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataDiaryTests/CoreDataDiaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A3D4F1180B61E900C65DEE /* Build configuration list for PBXProject "CoreDataDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A3D526180B61EA00C65DEE /* Debug */,
+				25A3D527180B61EA00C65DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A3D528180B61EA00C65DEE /* Build configuration list for PBXNativeTarget "CoreDataDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A3D529180B61EA00C65DEE /* Debug */,
+				25A3D52A180B61EA00C65DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A3D52B180B61EA00C65DEE /* Build configuration list for PBXNativeTarget "CoreDataDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A3D52C180B61EA00C65DEE /* Debug */,
+				25A3D52D180B61EA00C65DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25A5324E180CB0CD00669458 /* CoreDataDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25A5324F180CB0CD00669458 /* CoreDataDiary.xcdatamodel */,
+			);
+			currentVersion = 25A5324F180CB0CD00669458 /* CoreDataDiary.xcdatamodel */;
+			path = CoreDataDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25A3D4EE180B61E900C65DEE /* Project object */;
+}

@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257DE99218021353006DD19D /* DRWRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257DE99118021353006DD19D /* DRWRotationViewController.m */; };
+		257DE998180213F8006DD19D /* DRWShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257DE997180213F8006DD19D /* DRWShapeView.m */; };
+		257DE99B18021478006DD19D /* DRWTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257DE99A18021478006DD19D /* DRWTriangleView.m */; };
+		257DE99E18021AFE006DD19D /* DRWRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257DE99D18021AFE006DD19D /* DRWRotationView.m */; };
+		25894BB61801E638008BCB31 /* DRWColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 25894BB51801E638008BCB31 /* DRWColorPicker.m */; };
+		25A6D33E1801C3C50045FD33 /* DRWCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A6D33D1801C3C50045FD33 /* DRWCircleView.m */; };
+		25A6D3411801CF140045FD33 /* DRWPinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A6D3401801CF140045FD33 /* DRWPinchViewController.m */; };
+		25A6D3441801CF4D0045FD33 /* DRWPinchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A6D3431801CF4D0045FD33 /* DRWPinchView.m */; };
+		25A8CA7E1800CB6000458827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8CA7D1800CB6000458827 /* Foundation.framework */; };
+		25A8CA801800CB6000458827 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8CA7F1800CB6000458827 /* CoreGraphics.framework */; };
+		25A8CA821800CB6000458827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8CA811800CB6000458827 /* UIKit.framework */; };
+		25A8CA881800CB6000458827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A8CA861800CB6000458827 /* InfoPlist.strings */; };
+		25A8CA8A1800CB6000458827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8CA891800CB6000458827 /* main.m */; };
+		25A8CA8E1800CB6000458827 /* DRWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8CA8D1800CB6000458827 /* DRWAppDelegate.m */; };
+		25A8CA901800CB6000458827 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A8CA8F1800CB6000458827 /* Images.xcassets */; };
+		25A8CA971800CB6000458827 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8CA961800CB6000458827 /* XCTest.framework */; };
+		25A8CA981800CB6000458827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8CA7D1800CB6000458827 /* Foundation.framework */; };
+		25A8CA991800CB6000458827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8CA811800CB6000458827 /* UIKit.framework */; };
+		25A8CAA11800CB6000458827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A8CA9F1800CB6000458827 /* InfoPlist.strings */; };
+		25A8CAA31800CB6000458827 /* DrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8CAA21800CB6000458827 /* DrawingTests.m */; };
+		25A8CAAE1800CBDD00458827 /* DRWDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8CAAD1800CBDD00458827 /* DRWDrawingViewController.m */; };
+		25A8CAB11800CF3900458827 /* DRWDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8CAB01800CF3900458827 /* DRWDrawingView.m */; };
+		25F1D2AA180383D900603011 /* DRWSmileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F1D2A8180383D900603011 /* DRWSmileView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A8CA9A1800CB6000458827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A8CA721800CB6000458827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A8CA791800CB6000458827;
+			remoteInfo = Drawing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257DE99018021353006DD19D /* DRWRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWRotationViewController.h; sourceTree = "<group>"; };
+		257DE99118021353006DD19D /* DRWRotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWRotationViewController.m; sourceTree = "<group>"; };
+		257DE996180213F8006DD19D /* DRWShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWShapeView.h; sourceTree = "<group>"; };
+		257DE997180213F8006DD19D /* DRWShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWShapeView.m; sourceTree = "<group>"; };
+		257DE99918021478006DD19D /* DRWTriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRWTriangleView.h; path = ../DRWTriangleView.h; sourceTree = "<group>"; };
+		257DE99A18021478006DD19D /* DRWTriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRWTriangleView.m; path = ../DRWTriangleView.m; sourceTree = "<group>"; };
+		257DE99C18021AFE006DD19D /* DRWRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWRotationView.h; sourceTree = "<group>"; };
+		257DE99D18021AFE006DD19D /* DRWRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWRotationView.m; sourceTree = "<group>"; };
+		25894BB41801E638008BCB31 /* DRWColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWColorPicker.h; sourceTree = "<group>"; };
+		25894BB51801E638008BCB31 /* DRWColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWColorPicker.m; sourceTree = "<group>"; };
+		25A6D33C1801C3C50045FD33 /* DRWCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWCircleView.h; sourceTree = "<group>"; };
+		25A6D33D1801C3C50045FD33 /* DRWCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWCircleView.m; sourceTree = "<group>"; };
+		25A6D33F1801CF140045FD33 /* DRWPinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWPinchViewController.h; sourceTree = "<group>"; };
+		25A6D3401801CF140045FD33 /* DRWPinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWPinchViewController.m; sourceTree = "<group>"; };
+		25A6D3421801CF4D0045FD33 /* DRWPinchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWPinchView.h; sourceTree = "<group>"; };
+		25A6D3431801CF4D0045FD33 /* DRWPinchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWPinchView.m; sourceTree = "<group>"; };
+		25A8CA7A1800CB6000458827 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8CA7D1800CB6000458827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25A8CA7F1800CB6000458827 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25A8CA811800CB6000458827 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25A8CA851800CB6000458827 /* Drawing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing-Info.plist"; sourceTree = "<group>"; };
+		25A8CA871800CB6000458827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A8CA891800CB6000458827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A8CA8B1800CB6000458827 /* Drawing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing-Prefix.pch"; sourceTree = "<group>"; };
+		25A8CA8C1800CB6000458827 /* DRWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRWAppDelegate.h; sourceTree = "<group>"; };
+		25A8CA8D1800CB6000458827 /* DRWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRWAppDelegate.m; sourceTree = "<group>"; };
+		25A8CA8F1800CB6000458827 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25A8CA951800CB6000458827 /* DrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8CA961800CB6000458827 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25A8CA9E1800CB6000458827 /* DrawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingTests-Info.plist"; sourceTree = "<group>"; };
+		25A8CAA01800CB6000458827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A8CAA21800CB6000458827 /* DrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingTests.m; sourceTree = "<group>"; };
+		25A8CAAC1800CBDD00458827 /* DRWDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWDrawingViewController.h; sourceTree = "<group>"; };
+		25A8CAAD1800CBDD00458827 /* DRWDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWDrawingViewController.m; sourceTree = "<group>"; };
+		25A8CAAF1800CF3900458827 /* DRWDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWDrawingView.h; sourceTree = "<group>"; };
+		25A8CAB01800CF3900458827 /* DRWDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWDrawingView.m; sourceTree = "<group>"; };
+		25F1D2A8180383D900603011 /* DRWSmileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWSmileView.m; sourceTree = "<group>"; };
+		25F1D2A9180383D900603011 /* DRWSmileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWSmileView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A8CA771800CB6000458827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8CA801800CB6000458827 /* CoreGraphics.framework in Frameworks */,
+				25A8CA821800CB6000458827 /* UIKit.framework in Frameworks */,
+				25A8CA7E1800CB6000458827 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8CA921800CB6000458827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8CA971800CB6000458827 /* XCTest.framework in Frameworks */,
+				25A8CA991800CB6000458827 /* UIKit.framework in Frameworks */,
+				25A8CA981800CB6000458827 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257DE98B1802114F006DD19D /* Curve Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CAAC1800CBDD00458827 /* DRWDrawingViewController.h */,
+				25A8CAAD1800CBDD00458827 /* DRWDrawingViewController.m */,
+				25A8CAAF1800CF3900458827 /* DRWDrawingView.h */,
+				25A8CAB01800CF3900458827 /* DRWDrawingView.m */,
+			);
+			name = "Curve Drawing";
+			sourceTree = "<group>";
+		};
+		257DE98C18021164006DD19D /* Pinch Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				25A6D33F1801CF140045FD33 /* DRWPinchViewController.h */,
+				25A6D3401801CF140045FD33 /* DRWPinchViewController.m */,
+				25A6D3421801CF4D0045FD33 /* DRWPinchView.h */,
+				25A6D3431801CF4D0045FD33 /* DRWPinchView.m */,
+			);
+			name = "Pinch Gesture";
+			sourceTree = "<group>";
+		};
+		257DE98D18021215006DD19D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				25F1D2A8180383D900603011 /* DRWSmileView.m */,
+				25F1D2A9180383D900603011 /* DRWSmileView.h */,
+				257DE996180213F8006DD19D /* DRWShapeView.h */,
+				257DE997180213F8006DD19D /* DRWShapeView.m */,
+				25A6D33C1801C3C50045FD33 /* DRWCircleView.h */,
+				25A6D33D1801C3C50045FD33 /* DRWCircleView.m */,
+				257DE99918021478006DD19D /* DRWTriangleView.h */,
+				257DE99A18021478006DD19D /* DRWTriangleView.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		257DE98E18021226006DD19D /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				25894BB41801E638008BCB31 /* DRWColorPicker.h */,
+				25894BB51801E638008BCB31 /* DRWColorPicker.m */,
+			);
+			name = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		257DE98F18021297006DD19D /* Rotation Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				257DE99018021353006DD19D /* DRWRotationViewController.h */,
+				257DE99118021353006DD19D /* DRWRotationViewController.m */,
+				257DE99C18021AFE006DD19D /* DRWRotationView.h */,
+				257DE99D18021AFE006DD19D /* DRWRotationView.m */,
+			);
+			name = "Rotation Gesture";
+			sourceTree = "<group>";
+		};
+		25A8CA711800CB6000458827 = {
+			isa = PBXGroup;
+			children = (
+				25A8CA831800CB6000458827 /* Drawing */,
+				25A8CA9C1800CB6000458827 /* DrawingTests */,
+				25A8CA7C1800CB6000458827 /* Frameworks */,
+				25A8CA7B1800CB6000458827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A8CA7B1800CB6000458827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CA7A1800CB6000458827 /* Drawing.app */,
+				25A8CA951800CB6000458827 /* DrawingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A8CA7C1800CB6000458827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CA7D1800CB6000458827 /* Foundation.framework */,
+				25A8CA7F1800CB6000458827 /* CoreGraphics.framework */,
+				25A8CA811800CB6000458827 /* UIKit.framework */,
+				25A8CA961800CB6000458827 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A8CA831800CB6000458827 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CA8C1800CB6000458827 /* DRWAppDelegate.h */,
+				25A8CA8D1800CB6000458827 /* DRWAppDelegate.m */,
+				257DE98E18021226006DD19D /* Reusable Views */,
+				257DE98C18021164006DD19D /* Pinch Gesture */,
+				257DE98F18021297006DD19D /* Rotation Gesture */,
+				257DE98B1802114F006DD19D /* Curve Drawing */,
+				257DE98D18021215006DD19D /* Shapes */,
+				25A8CA8F1800CB6000458827 /* Images.xcassets */,
+				25A8CA841800CB6000458827 /* Supporting Files */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		25A8CA841800CB6000458827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CA851800CB6000458827 /* Drawing-Info.plist */,
+				25A8CA861800CB6000458827 /* InfoPlist.strings */,
+				25A8CA891800CB6000458827 /* main.m */,
+				25A8CA8B1800CB6000458827 /* Drawing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25A8CA9C1800CB6000458827 /* DrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CAA21800CB6000458827 /* DrawingTests.m */,
+				25A8CA9D1800CB6000458827 /* Supporting Files */,
+			);
+			path = DrawingTests;
+			sourceTree = "<group>";
+		};
+		25A8CA9D1800CB6000458827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A8CA9E1800CB6000458827 /* DrawingTests-Info.plist */,
+				25A8CA9F1800CB6000458827 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A8CA791800CB6000458827 /* Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A8CAA61800CB6000458827 /* Build configuration list for PBXNativeTarget "Drawing" */;
+			buildPhases = (
+				25A8CA761800CB6000458827 /* Sources */,
+				25A8CA771800CB6000458827 /* Frameworks */,
+				25A8CA781800CB6000458827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawing;
+			productName = Drawing;
+			productReference = 25A8CA7A1800CB6000458827 /* Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25A8CA941800CB6000458827 /* DrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A8CAA91800CB6000458827 /* Build configuration list for PBXNativeTarget "DrawingTests" */;
+			buildPhases = (
+				25A8CA911800CB6000458827 /* Sources */,
+				25A8CA921800CB6000458827 /* Frameworks */,
+				25A8CA931800CB6000458827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A8CA9B1800CB6000458827 /* PBXTargetDependency */,
+			);
+			name = DrawingTests;
+			productName = DrawingTests;
+			productReference = 25A8CA951800CB6000458827 /* DrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A8CA721800CB6000458827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DRW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tyler Hedrick";
+				TargetAttributes = {
+					25A8CA791800CB6000458827 = {
+						DevelopmentTeam = 2MCDBYUBVR;
+					};
+					25A8CA941800CB6000458827 = {
+						TestTargetID = 25A8CA791800CB6000458827;
+					};
+				};
+			};
+			buildConfigurationList = 25A8CA751800CB6000458827 /* Build configuration list for PBXProject "Drawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25A8CA711800CB6000458827;
+			productRefGroup = 25A8CA7B1800CB6000458827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A8CA791800CB6000458827 /* Drawing */,
+				25A8CA941800CB6000458827 /* DrawingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A8CA781800CB6000458827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8CA881800CB6000458827 /* InfoPlist.strings in Resources */,
+				25A8CA901800CB6000458827 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8CA931800CB6000458827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8CAA11800CB6000458827 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A8CA761800CB6000458827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257DE998180213F8006DD19D /* DRWShapeView.m in Sources */,
+				25894BB61801E638008BCB31 /* DRWColorPicker.m in Sources */,
+				257DE99B18021478006DD19D /* DRWTriangleView.m in Sources */,
+				257DE99218021353006DD19D /* DRWRotationViewController.m in Sources */,
+				25A8CAAE1800CBDD00458827 /* DRWDrawingViewController.m in Sources */,
+				25F1D2AA180383D900603011 /* DRWSmileView.m in Sources */,
+				25A6D33E1801C3C50045FD33 /* DRWCircleView.m in Sources */,
+				25A6D3441801CF4D0045FD33 /* DRWPinchView.m in Sources */,
+				25A8CA8E1800CB6000458827 /* DRWAppDelegate.m in Sources */,
+				257DE99E18021AFE006DD19D /* DRWRotationView.m in Sources */,
+				25A8CA8A1800CB6000458827 /* main.m in Sources */,
+				25A8CAB11800CF3900458827 /* DRWDrawingView.m in Sources */,
+				25A6D3411801CF140045FD33 /* DRWPinchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8CA911800CB6000458827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8CAA31800CB6000458827 /* DrawingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25A8CA9B1800CB6000458827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A8CA791800CB6000458827 /* Drawing */;
+			targetProxy = 25A8CA9A1800CB6000458827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25A8CA861800CB6000458827 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A8CA871800CB6000458827 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25A8CA9F1800CB6000458827 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A8CAA01800CB6000458827 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A8CAA41800CB6000458827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25A8CAA51800CB6000458827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A8CAA71800CB6000458827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing/Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Drawing/Drawing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25A8CAA81800CB6000458827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing/Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Drawing/Drawing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25A8CAAA1800CB6000458827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing.app/Drawing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing/Drawing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DrawingTests/DrawingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25A8CAAB1800CB6000458827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing.app/Drawing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing/Drawing-Prefix.pch";
+				INFOPLIST_FILE = "DrawingTests/DrawingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A8CA751800CB6000458827 /* Build configuration list for PBXProject "Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8CAA41800CB6000458827 /* Debug */,
+				25A8CAA51800CB6000458827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8CAA61800CB6000458827 /* Build configuration list for PBXNativeTarget "Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8CAA71800CB6000458827 /* Debug */,
+				25A8CAA81800CB6000458827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8CAA91800CB6000458827 /* Build configuration list for PBXNativeTarget "DrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8CAAA1800CB6000458827 /* Debug */,
+				25A8CAAB1800CB6000458827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A8CA721800CB6000458827 /* Project object */;
+}

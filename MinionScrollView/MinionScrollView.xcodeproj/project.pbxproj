@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F01A3217EB90E800E86C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F01A3117EB90E800E86C43 /* Foundation.framework */; };
+		25F01A3417EB90E800E86C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F01A3317EB90E800E86C43 /* CoreGraphics.framework */; };
+		25F01A3617EB90E800E86C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F01A3517EB90E800E86C43 /* UIKit.framework */; };
+		25F01A3C17EB90E800E86C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F01A3A17EB90E800E86C43 /* InfoPlist.strings */; };
+		25F01A3E17EB90E800E86C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F01A3D17EB90E800E86C43 /* main.m */; };
+		25F01A4217EB90E800E86C43 /* MSVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F01A4117EB90E800E86C43 /* MSVAppDelegate.m */; };
+		25F01A4517EB90E800E86C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F01A4317EB90E800E86C43 /* Main.storyboard */; };
+		25F01A4817EB90E800E86C43 /* MSVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F01A4717EB90E800E86C43 /* MSVViewController.m */; };
+		25F01A4A17EB90E800E86C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F01A4917EB90E800E86C43 /* Images.xcassets */; };
+		25F01A5117EB90E900E86C43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F01A5017EB90E900E86C43 /* XCTest.framework */; };
+		25F01A5217EB90E900E86C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F01A3117EB90E800E86C43 /* Foundation.framework */; };
+		25F01A5317EB90E900E86C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F01A3517EB90E800E86C43 /* UIKit.framework */; };
+		25F01A5B17EB90E900E86C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F01A5917EB90E900E86C43 /* InfoPlist.strings */; };
+		25F01A5D17EB90E900E86C43 /* MinionScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F01A5C17EB90E900E86C43 /* MinionScrollViewTests.m */; };
+		25F01A6717EB917300E86C43 /* minions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25F01A6617EB917300E86C43 /* minions.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F01A5417EB90E900E86C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F01A2617EB90E800E86C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F01A2D17EB90E800E86C43;
+			remoteInfo = MinionScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25F01A2E17EB90E800E86C43 /* MinionScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinionScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F01A3117EB90E800E86C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25F01A3317EB90E800E86C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25F01A3517EB90E800E86C43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25F01A3917EB90E800E86C43 /* MinionScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinionScrollView-Info.plist"; sourceTree = "<group>"; };
+		25F01A3B17EB90E800E86C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25F01A3D17EB90E800E86C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25F01A3F17EB90E800E86C43 /* MinionScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinionScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		25F01A4017EB90E800E86C43 /* MSVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSVAppDelegate.h; sourceTree = "<group>"; };
+		25F01A4117EB90E800E86C43 /* MSVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSVAppDelegate.m; sourceTree = "<group>"; };
+		25F01A4417EB90E800E86C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F01A4617EB90E800E86C43 /* MSVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSVViewController.h; sourceTree = "<group>"; };
+		25F01A4717EB90E800E86C43 /* MSVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSVViewController.m; sourceTree = "<group>"; };
+		25F01A4917EB90E800E86C43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25F01A4F17EB90E900E86C43 /* MinionScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F01A5017EB90E900E86C43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25F01A5817EB90E900E86C43 /* MinionScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinionScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		25F01A5A17EB90E900E86C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25F01A5C17EB90E900E86C43 /* MinionScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinionScrollViewTests.m; sourceTree = "<group>"; };
+		25F01A6617EB917300E86C43 /* minions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minions.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F01A2B17EB90E800E86C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F01A3417EB90E800E86C43 /* CoreGraphics.framework in Frameworks */,
+				25F01A3617EB90E800E86C43 /* UIKit.framework in Frameworks */,
+				25F01A3217EB90E800E86C43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F01A4C17EB90E900E86C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F01A5117EB90E900E86C43 /* XCTest.framework in Frameworks */,
+				25F01A5317EB90E900E86C43 /* UIKit.framework in Frameworks */,
+				25F01A5217EB90E900E86C43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F01A2517EB90E800E86C43 = {
+			isa = PBXGroup;
+			children = (
+				25F01A3717EB90E800E86C43 /* MinionScrollView */,
+				25F01A5617EB90E900E86C43 /* MinionScrollViewTests */,
+				25F01A3017EB90E800E86C43 /* Frameworks */,
+				25F01A2F17EB90E800E86C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F01A2F17EB90E800E86C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F01A2E17EB90E800E86C43 /* MinionScrollView.app */,
+				25F01A4F17EB90E900E86C43 /* MinionScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F01A3017EB90E800E86C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F01A3117EB90E800E86C43 /* Foundation.framework */,
+				25F01A3317EB90E800E86C43 /* CoreGraphics.framework */,
+				25F01A3517EB90E800E86C43 /* UIKit.framework */,
+				25F01A5017EB90E900E86C43 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F01A3717EB90E800E86C43 /* MinionScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				25F01A4017EB90E800E86C43 /* MSVAppDelegate.h */,
+				25F01A4117EB90E800E86C43 /* MSVAppDelegate.m */,
+				25F01A4317EB90E800E86C43 /* Main.storyboard */,
+				25F01A4617EB90E800E86C43 /* MSVViewController.h */,
+				25F01A4717EB90E800E86C43 /* MSVViewController.m */,
+				25F01A4917EB90E800E86C43 /* Images.xcassets */,
+				25F01A3817EB90E800E86C43 /* Supporting Files */,
+			);
+			path = MinionScrollView;
+			sourceTree = "<group>";
+		};
+		25F01A3817EB90E800E86C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25F01A6617EB917300E86C43 /* minions.jpg */,
+				25F01A3917EB90E800E86C43 /* MinionScrollView-Info.plist */,
+				25F01A3A17EB90E800E86C43 /* InfoPlist.strings */,
+				25F01A3D17EB90E800E86C43 /* main.m */,
+				25F01A3F17EB90E800E86C43 /* MinionScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25F01A5617EB90E900E86C43 /* MinionScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				25F01A5C17EB90E900E86C43 /* MinionScrollViewTests.m */,
+				25F01A5717EB90E900E86C43 /* Supporting Files */,
+			);
+			path = MinionScrollViewTests;
+			sourceTree = "<group>";
+		};
+		25F01A5717EB90E900E86C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25F01A5817EB90E900E86C43 /* MinionScrollViewTests-Info.plist */,
+				25F01A5917EB90E900E86C43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F01A2D17EB90E800E86C43 /* MinionScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F01A6017EB90E900E86C43 /* Build configuration list for PBXNativeTarget "MinionScrollView" */;
+			buildPhases = (
+				25F01A2A17EB90E800E86C43 /* Sources */,
+				25F01A2B17EB90E800E86C43 /* Frameworks */,
+				25F01A2C17EB90E800E86C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinionScrollView;
+			productName = MinionScrollView;
+			productReference = 25F01A2E17EB90E800E86C43 /* MinionScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F01A4E17EB90E900E86C43 /* MinionScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F01A6317EB90E900E86C43 /* Build configuration list for PBXNativeTarget "MinionScrollViewTests" */;
+			buildPhases = (
+				25F01A4B17EB90E900E86C43 /* Sources */,
+				25F01A4C17EB90E900E86C43 /* Frameworks */,
+				25F01A4D17EB90E900E86C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F01A5517EB90E900E86C43 /* PBXTargetDependency */,
+			);
+			name = MinionScrollViewTests;
+			productName = MinionScrollViewTests;
+			productReference = 25F01A4F17EB90E900E86C43 /* MinionScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F01A2617EB90E800E86C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = hedrick.tyler;
+				TargetAttributes = {
+					25F01A4E17EB90E900E86C43 = {
+						TestTargetID = 25F01A2D17EB90E800E86C43;
+					};
+				};
+			};
+			buildConfigurationList = 25F01A2917EB90E800E86C43 /* Build configuration list for PBXProject "MinionScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F01A2517EB90E800E86C43;
+			productRefGroup = 25F01A2F17EB90E800E86C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F01A2D17EB90E800E86C43 /* MinionScrollView */,
+				25F01A4E17EB90E900E86C43 /* MinionScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F01A2C17EB90E800E86C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F01A4A17EB90E800E86C43 /* Images.xcassets in Resources */,
+				25F01A3C17EB90E800E86C43 /* InfoPlist.strings in Resources */,
+				25F01A4517EB90E800E86C43 /* Main.storyboard in Resources */,
+				25F01A6717EB917300E86C43 /* minions.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F01A4D17EB90E900E86C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F01A5B17EB90E900E86C43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F01A2A17EB90E800E86C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F01A3E17EB90E800E86C43 /* main.m in Sources */,
+				25F01A4217EB90E800E86C43 /* MSVAppDelegate.m in Sources */,
+				25F01A4817EB90E800E86C43 /* MSVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F01A4B17EB90E900E86C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F01A5D17EB90E900E86C43 /* MinionScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F01A5517EB90E900E86C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F01A2D17EB90E800E86C43 /* MinionScrollView */;
+			targetProxy = 25F01A5417EB90E900E86C43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25F01A3A17EB90E800E86C43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F01A3B17EB90E800E86C43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25F01A4317EB90E800E86C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F01A4417EB90E800E86C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25F01A5917EB90E900E86C43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F01A5A17EB90E900E86C43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F01A5E17EB90E900E86C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25F01A5F17EB90E900E86C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F01A6117EB90E900E86C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinionScrollView/MinionScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MinionScrollView/MinionScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25F01A6217EB90E900E86C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinionScrollView/MinionScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MinionScrollView/MinionScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25F01A6417EB90E900E86C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinionScrollView.app/MinionScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinionScrollView/MinionScrollView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MinionScrollViewTests/MinionScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25F01A6517EB90E900E86C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinionScrollView.app/MinionScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinionScrollView/MinionScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MinionScrollViewTests/MinionScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F01A2917EB90E800E86C43 /* Build configuration list for PBXProject "MinionScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F01A5E17EB90E900E86C43 /* Debug */,
+				25F01A5F17EB90E900E86C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F01A6017EB90E900E86C43 /* Build configuration list for PBXNativeTarget "MinionScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F01A6117EB90E900E86C43 /* Debug */,
+				25F01A6217EB90E900E86C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25F01A6317EB90E900E86C43 /* Build configuration list for PBXNativeTarget "MinionScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F01A6417EB90E900E86C43 /* Debug */,
+				25F01A6517EB90E900E86C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F01A2617EB90E800E86C43 /* Project object */;
+}
